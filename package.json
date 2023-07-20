@@ -1,0 +1,49 @@
+{
+  "name": "nio-api.js",
+  "version": "3.0.0",
+  "description": "Neatio JavaScript API 3.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "build": "babel src --out-dir=dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neatlab/neatioapi.git"
+  },
+  "keywords": [
+    "Neatio",
+    "JavaScript",
+    "API"
+  ],
+  "author": "luckas83@neatio.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nio-net/nio-api.jsissues"
+  },
+  "homepage": "https://github.com/nio-net/nio-api.js#readme",
+  "dependencies": {
+    "bn.js": "^5.1.2",
+    "browserify-cipher": "^1.0.1",
+    "create-hash": "^1.2.0",
+    "elliptic": "^6.5.3",
+    "lodash": "^4.17.19",
+    "number-to-bn": "^1.7.0",
+    "pbkdf2": "^3.1.1",
+    "randombytes": "^2.1.0",
+    "safe-buffer": "^5.2.1",
+    "scrypt.js": "^0.3.0",
+    "underscore": "^1.10.2",
+    "utf8": "^3.0.0",
+    "uuid": "^8.2.0",
+    "xhr-request-promise": "^0.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "ethjs-account": "^0.1.1",
+    "ethjs-signer": "^0.1.1",
+    "mocha": "^8.0.1",
+    "rlp": "^2.0.0"
+  }
+}
